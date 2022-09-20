@@ -18,7 +18,7 @@ public class DBController {
 	@Autowired
 	UserService userService;
 	
-	@GetMapping("/see")
+	@GetMapping("/look")
 	public String visible() {
 		System.out.println("program start");
 		return "something visible";
