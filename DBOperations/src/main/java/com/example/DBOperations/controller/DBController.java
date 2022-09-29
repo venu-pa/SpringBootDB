@@ -21,7 +21,7 @@ public class DBController {
 	@GetMapping("/look")
 	public String visible() {
 		System.out.println("program start");
-		return "something visible";
+		return "This is look service";
 		
 	}
 	
